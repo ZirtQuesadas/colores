@@ -1,0 +1,26 @@
+/*
+Breakpoints: 
+320px - 375px; GREEN
+376px - 667px; YELLOW
+667px - 1024px; RED
+1024px - 1600px; BLUE
+*/
+div {height: 200px;}
+@media (min-width: 320px) and (max-width: 499px) {
+	body{background-color:green;}
+	div{background-color: purple;}
+}
+
+@media (min-width: 500px) and (max-width: 667px) {
+	body {background-color: yellow;}
+	div{background-color: gray;}
+}
+
+@media (min-width: 668px) and (max-width: 1024px) {
+	body {background-color: red;}
+	div{background-color: black}
+}
+@media (min-width: 1024px) and (max-width: 1600px) {
+	body {background-color: blue;}
+	div{background-color: white}
+}
